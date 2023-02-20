@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="23.057" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Purchase the order from Ecommerce website" name="Positive test of Submitting the order - Example #1.1" time="22.585">
+<system-out><![CDATA[
+Given user landed on Ecommerce page.........................................passed
+Given user logged in with username deeshashetty17@gmail.com and password Deesh@@#17.passed
+When user add the product ZARA COAT 3 to Cart...............................passed
+And Checkout ZARA COAT 3 and submit the order...............................passed
+Then "THANKYOU FOR THE ORDER." message is displayed on ConfirmationPage.....passed
+]]></system-out>
+</testcase>
+</testsuite>
